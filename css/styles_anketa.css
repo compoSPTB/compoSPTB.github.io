@@ -1,0 +1,26 @@
+h1 {
+    padding-top: 10px;
+    color: crimson;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    background: url(../image/main_bg.png);
+}
+
+#wrapper {
+    max-width: 670px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background: rgba(255, 255, 255, 0.89);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.54);
+}
+
+#logo_company ul li {
+    list-style: none;
+    display: inline-table;
+    margin: 11px;
+}
