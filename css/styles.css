@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-body {
+#body {
     background: url(../image/8.jpg) repeat-x;
     width: 100%;
     font-family: Didact Gothic, verdana, sans-serif;
@@ -146,4 +146,21 @@ hgroup {
     margin-top: 30px;
     text-align: center;
     font-size: 9px;
+}
+
+/* Все что касается документа index_anketa */
+
+#wrapper_anketa {
+    margin: 10px 10px;
+}
+
+#logo_company{
+    padding-top: 20px;
+    padding-left: -5px;
+}
+
+#logo_company ul li {
+    list-style: none;
+    display: inline-table;
+    margin: 7px;
 }
