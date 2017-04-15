@@ -9,11 +9,12 @@ p {
 }
 body {
     width: 100%;
-    background: #2b56a7;
+    background: linear-gradient(to right, rgba(22, 87, 136, 0.94), rgba(60, 139, 198, 0.78) );
 }
 
 #wrapper {
     max-width: 670px;
+    min-width: 670px;
     margin: 0 auto;
     padding-left: 10px;
     padding-bottom: 10px;
