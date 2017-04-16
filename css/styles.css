@@ -155,7 +155,7 @@ hgroup {
 }
 
 #logo_company{
-    padding-top: 20px;
+    padding-top: 40px;
     padding-left: -5px;
 }
 
@@ -163,4 +163,10 @@ hgroup {
     list-style: none;
     display: inline-table;
     margin: 7px;
+}
+
+#anketa_jotform {
+    text-align: center;
+    margin: 20px;
+    padding-top: 30px;
 }
