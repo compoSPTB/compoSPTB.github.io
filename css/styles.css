@@ -18,23 +18,28 @@
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.69);
 }
 
-#adress {
-    font-size: 13px;
-    margin-left: 30%;
-    float: right;
-    margin-top: 10px; 
-}
 
-#adress_phone {
+.adress_phone {
+    padding-top: 3px;
+    width: 300px;
     color: aliceblue;
     font-size: 12px;
-    margin-left: 30%;
-    float: right;
-    margin-top: 17px; 
+    float: right; 
 }
 
 #logo {
     flex:1;
+}
+
+#logo a {
+    display: block;
+    width: 345px;
+    height: 90px;
+    background: url(../image/picture_compo.png) no-repeat;
+}
+
+#logo a:hover {
+    background-position: 0 -90px;
 }
 
 #nav{
@@ -53,7 +58,7 @@
 
 #header {
     padding-left: 10px;
-    padding-top: 35px;
+    padding-top: 50px;
     display: flex;
 }
 
@@ -101,7 +106,7 @@ h2 {
 
 #text_aside {
     font-size: 14px;
-    margin: 10% 10%;;
+    margin: 1% 12%;;
     line-height: 20px;
 }
 
@@ -191,4 +196,67 @@ hgroup {
 #text_red {
     text-shadow: 1px 1px 3px rgba(0, 208, 24, 0.33);
     color: rgba(20, 52, 162, 0.88);
+}
+
+#picture_vk a {
+    display: block;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 132px;
+    height: 90px;
+    background: url(../image/logo.png) no-repeat;
+}
+
+#picture_vk a:hover {
+    background-position: 0 -91px;
+}
+
+#anketa_jotform a {
+    float: right;
+    display: block;
+    margin: 20px;
+    width: 42px;
+    height: 58px;
+    background: url(../image/Anketa.png) no-repeat;
+}
+
+#anketa_jotform a:hover {
+    background-position: 0 -61px;
+}
+
+#anketa_jotform a:active {
+    background-position: 0 -122px;
+}
+
+#mail ul li {
+    list-style: none;
+}
+
+#mail ul {
+    margin-top: 10px;
+    list-style: none;
+    float: right;
+}
+
+#mail_img a {
+    display: block;
+    width: 28px;
+    height: 22px;
+    background: url(../image/mail.png);
+}
+
+#mail_img a:hover {
+    background-position: 0 -24px;
+}
+
+#vk_img a {
+    margin-top: 10px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(../image/logo-VK.png);
+}
+
+#vk_img a:hover {
+    background-position: 0 -30px;
 }
