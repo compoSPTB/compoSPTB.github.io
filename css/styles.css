@@ -1,9 +1,22 @@
- @import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Cuprum');
+@import url('https://fonts.googleapis.com/css?family=Forum');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+
+
+
+
 
 * {
     margin: 0;
     padding: 0;
 }
+
 
 #body {
     background: url(../image/bg_2.png);
@@ -101,7 +114,7 @@ h1 {
 h2 {
     padding-top: 5px;
     font-size: 12px;
-    color: rgba(95, 93, 103, 0.9);
+    color: rgba(92, 91, 98, 0.91);
 }
 
 #text_aside {
@@ -111,6 +124,7 @@ h2 {
 }
 
 #main_section {
+    font-family: Forum, verdana, sans-serif;
     border-radius: 10px;
     margin-right: 10px;
     background: rgba(255, 255, 255, 0.9);
@@ -139,8 +153,8 @@ a:hover {
 }
 
 hgroup {
-    text-indent: 5px;
-    padding-left: 10%;
+    text-indent: 10px;
+    padding-left: 5%;
     width: 80%;
 }
 
@@ -162,16 +176,6 @@ hgroup {
     margin: 10px 10px;
 }
 
-#logo_company{
-    padding-top: 40px;
-    padding-left: -5px;
-}
-
-#logo_company ul li {
-    list-style: none;
-    display: inline-table;
-    margin: 7px;
-}
 
 #anketa_logo {
     padding-top: 18px;
@@ -180,8 +184,6 @@ hgroup {
 
 #anketa_jotform {
     text-align: left;
-    margin: 10px;
-    padding-top: 30px;
 }
 
 #header_back {
@@ -194,8 +196,8 @@ hgroup {
 }
 
 #text_red {
-    text-shadow: 1px 1px 3px rgba(0, 208, 24, 0.33);
-    color: rgba(20, 52, 162, 0.88);
+    text-shadow: 1px 1px 3px rgba(185, 63, 166, 0.31);
+    color: rgba(154, 27, 27, 0.62);
 }
 
 #picture_vk a {
@@ -214,7 +216,7 @@ hgroup {
 #anketa_jotform a {
     float: right;
     display: block;
-    margin: 20px;
+    margin: 8px;
     width: 42px;
     height: 58px;
     background: url(../image/Anketa.png) no-repeat;
@@ -259,4 +261,121 @@ hgroup {
 
 #vk_img a:hover {
     background-position: 0 -30px;
+}
+
+#logo_company {
+    width: 350px;
+    margin: 30px auto;
+}
+
+#logo_company ul li {
+    margin: 9px;
+    list-style: none;
+    display: inline-table;
+}
+
+.logo_company a {
+    display: block;
+    width: 80px;
+    height: 20px;
+    background: url(../image/svg.png) no-repeat;
+    
+}
+
+
+#acer a {
+    background-position: 0 0;
+}
+
+#acer a:hover {
+    background-position: 0 -20px;
+}
+
+#asus a {
+    background-position: 0 -40px;
+}
+
+#asus a:hover {
+    background-position: 0 -60px;
+}
+
+#apple a {
+    background-position: 0 -80px;
+}
+
+#apple a:hover {
+    background-position: 0 -100px;
+}
+
+#compaq a {
+    background-position: 0 -120px;
+}
+
+#compaq a:hover {
+    background-position: 0 -141px;
+}
+
+#dell a {
+    background-position: -80px 0;
+}
+
+#dell a:hover {
+    background-position: -80px -20px;
+}
+
+#hp a {
+    background-position: -80px -40px;
+}
+
+#hp a:hover {
+    background-position: -80px -60px;
+}
+
+#iru a {
+    background-position: -80px -80px;
+}
+
+#iru a:hover {
+    background-position: -80px -100px;
+}
+
+#lenovo a {
+    background-position: -80px -120px;
+}
+
+#lenovo a:hover {
+    background-position: -80px -140px;
+}
+
+#msi a {
+    background-position: -160px 0;
+}
+
+#msi a:hover {
+    background-position: -160px -20px;
+}
+
+
+#packardbell a {
+    background-position: -160px -40px;
+}
+
+#packardbell a:hover {
+    background-position: -160px -60px;
+}
+
+#sony a {
+    background-position: -160px -80px;
+}
+
+#sony a:hover {
+    background-position: -160px -100px;
+}
+
+#toshiba a {
+    background-position: -160px -120px;
+}
+
+#toshiba a:hover {
+    background-position: -160px -140px;
 }
