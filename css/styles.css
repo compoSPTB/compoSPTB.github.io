@@ -120,7 +120,7 @@ h2 {
 }
 
 #main_section {
-    font-family: Didact Gothic, verdana, sans-serif;
+    font-family: serif, verdana, sans-serif;
     border-radius: 0 10px 10px 0;
     margin-right: 10px;
     background: rgba(255, 255, 255, 0.9);
@@ -196,6 +196,7 @@ hgroup {
 #text_red {
     text-shadow: 1px 1px 3px rgba(185, 63, 166, 0.31);
     color: rgba(154, 27, 27, 0.62);
+    font-family: Didact Gothic, verdana, sans-serif;
 }
 
 #picture_vk a {
