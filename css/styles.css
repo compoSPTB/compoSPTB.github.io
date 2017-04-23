@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
-@import url('https://fonts.googleapis.com/css?family=Forum');
 
 
 * {
@@ -9,7 +8,7 @@
 
 
 #body {
-    background: url(../image/bg_2.png);
+    background: url(../image/background29.png);
     width: 100%;
     font-family: Didact Gothic, verdana, sans-serif;
 }
@@ -27,7 +26,7 @@
     width: 300px;
     color: aliceblue;
     font-size: 12px;
-    float: right; 
+    float: right;
 }
 
 #logo {
@@ -56,16 +55,18 @@
 }
 
 #wrapper {
+    background: url(../image/background60.png); 
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     max-width: 670px;
     margin: 0 auto;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.54);
 }
 
 #header {
     padding-left: 10px;
-    padding-top: 50px;
+    padding-top: 40px;
     display: flex;
 }
 
@@ -95,10 +96,11 @@
     flex: 1;
     min-width: 200px;
     background: linear-gradient(to bottom, rgba(23, 113, 180, 0.83), rgba(17, 104, 168, 0.87));
-    border-radius: 10px;
+    border-radius: 10px 0 0 10px;
     text-align: left;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.51);
     max-height: 370px;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.54);
 }
 
 h1 {
@@ -118,8 +120,8 @@ h2 {
 }
 
 #main_section {
-    font-family: Forum, verdana, sans-serif;
-    border-radius: 10px;
+    font-family: Didact Gothic, verdana, sans-serif;
+    border-radius: 0 10px 10px 0;
     margin-right: 10px;
     background: rgba(255, 255, 255, 0.9);
     flex: 3;
@@ -135,7 +137,7 @@ h2 {
 a {
     text-decoration: none;
     list-style: none;
-    color: rgba(255, 255, 255, 0.88);
+    color: rgba(255, 255, 255, 0.94);
 }
 
 p {
@@ -158,9 +160,14 @@ hgroup {
 }
 
 #footer {
-    color: #13477b;
+    background: rgba(255, 255, 255, 0.83);
+    border-radius: 0 0 5px 0;
+    color: #413333;
     text-align: center;
-    font-size: 9px;
+    font-size: 10px;
+    max-width: 670px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.54);
 }
 
 /* Все что касается документа index_anketa */
@@ -180,12 +187,10 @@ hgroup {
 }
 
 #header_back {
-    padding-top: 1px;
-    /* background: rgba(23, 113, 180, 0.83); */
     background: linear-gradient(to bottom, rgba(23, 113, 180, 0.83), rgba(17, 104, 168, 0.87));
-    border-radius: 10px;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.54);
-    
+    border-radius: 0 0 10px 10px;
+    box-shadow: inset 1px -1px 2px rgba(0, 0, 0, 0.54);
+
 }
 
 #text_red {
@@ -257,11 +262,12 @@ hgroup {
 }
 
 #logo_company {
-    width: 350px;
-    margin: 30px auto;
+    width: 370px;
+    margin: 25px auto;
 }
 
 #logo_company ul li {
+    padding-left: 17px;
     margin: 9px;
     list-style: none;
     display: inline-table;
@@ -272,7 +278,7 @@ hgroup {
     width: 80px;
     height: 20px;
     background: url(../image/svg.png) no-repeat;
-    
+
 }
 
 
